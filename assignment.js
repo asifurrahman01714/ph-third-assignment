@@ -15,6 +15,7 @@ console.log(result, 'meter');
 
 
 //2.Calculate Budget to buy watch,phone & laptop.
+
 function budgetCalculator(watch, phone, laptop) {
     if (watch < 0 || phone < 0 || laptop < 0) {
         return "Plese input positive value";//Detecting negative value of the things as it is invalid.
